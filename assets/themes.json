@@ -1,0 +1,461 @@
+[
+    {
+        "id": "aurora theme",
+        "name": "# aurora",
+        "properties": {
+            "--bg-color": "#011926",
+            "--main-color": "#00e980",
+            "--caret-color": "#00e980",
+            "--sub-color": "#245c69",
+            "--sub-alt-color": "#00141f",
+            "--text-color": "#b0e0d0",
+            "--error-color": "#bd49a4",
+            "--error-extra-color": "#e0369f",
+            "--colorAnim": "color-change-aurora 2s linear infinite",
+            "--bgColorAnim": "color-change-aurora-bg 2s linear infinite",
+            "--borderColorAnim": "color-change-aurora-border 2s linear infinite"
+        }
+    },
+    {
+        "id": "rgb theme",
+        "name": "# rgb",
+        "properties": {
+            "--bg-color": "#111",
+            "--main-color": "#a0a0a0",
+            "--caret-color": "#ff2929",
+            "--sub-color": "#575757",
+            "--sub-alt-color": "#1a1a1a",
+            "--text-color": "#d2d2d2",
+            "--error-color": "#b9b9b9",
+            "--error-extra-color": "#f2f2f2",
+            "--colorAnim": "color-change-rgb 2s linear infinite",
+            "--bgColorAnim": "color-change-rgb-bg 2s linear infinite",
+            "--borderColorAnim": "color-change-rgb-border 2s linear infinite"
+        }
+    },
+    {
+        "id": "rainbow theme",
+        "name": "# rainbow",
+        "properties": {
+            "--bg-color": "#1d1d1d",
+            "--main-color": "#67b5d6",
+            "--caret-color": "#be74ff",
+            "--sub-color": "#747474",
+            "--sub-alt-color": "#282828",
+            "--text-color": "#e1e1e1",
+            "--error-color": "#cfcfcf",
+            "--error-extra-color": "#fefefe",
+            "--colorAnim": "color-change-rainbow 3s linear infinite",
+            "--borderColorAnim": "color-change-rainbow-border 3s linear infinite",
+            "--bgColorAnim": "color-change-rainbow-bg 3s linear infinite"
+        }
+    },
+    {
+        "id": "fire theme",
+        "name": "# fire",
+        "properties": {
+            "--bg-color": "#0f0000",
+            "--main-color": "#b31313",
+            "--caret-color": "#b31313",
+            "--sub-color": "#683434",
+            "--sub-alt-color": "#200a0a",
+            "--text-color": "#ffffff",
+            "--error-color": "#6b77e7",
+            "--error-extra-color": "#4351d1",
+            "--colorAnim": "color-change-fire 4s linear infinite",
+            "--bgColorAnim": "color-change-fire-bg 4s linear infinite",
+            "--borderColorAnim": "color-change-fire-border 4s linear infinite"
+        }
+    },
+    {
+        "id": "trance theme",
+        "name": "# trance",
+        "properties": {
+            "--bg-color": "#00021b",
+            "--main-color": "#ea2782",
+            "--caret-color": "#e51376",
+            "--sub-color": "#4a5e95",
+            "--sub-alt-color": "#18214c",
+            "--text-color": "#d9d9d9",
+            "--error-color": "#54bbaa",
+            "--error-extra-color": "#0ce4c0",
+            "--colorAnim": "color-change-trance linear 4s infinite",
+            "--bgColorAnim": "color-change-trance-bg linear 4s infinite",
+            "--borderColorAnim": "color-change-trance-border linear 4s infinite"
+        }
+    },
+    {
+        "id": "midnight blush theme",
+        "name": "midnight blush",
+        "properties": {
+            "--bg-color": "#333a45",
+            "--main-color": "#f44c7f",
+            "--caret-color": "#6c7481",
+            "--sub-color": "#939eae",
+            "--sub-alt-color": "#2e343d",
+            "--text-color": "#e9ecf0",
+            "--error-color": "#f97fa3",
+            "--error-extra-color": "#ff2365",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "arch theme",
+        "name": "arch",
+        "properties": {
+            "--bg-color": "#0c0d11",
+            "--main-color": "#7ebab5",
+            "--caret-color": "#7ebab5",
+            "--sub-color": "#454864",
+            "--sub-alt-color": "#171a25",
+            "--text-color": "#c7d9d8",
+            "--error-color": "#ff525d",
+            "--error-extra-color": "#ff2c3a",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "blueberry theme",
+        "name": "blueberry",
+        "properties": {
+            "--bg-color": "#212b42",
+            "--main-color": "#7fc1ff",
+            "--caret-color": "#7fb4ff",
+            "--sub-color": "#5c7da5",
+            "--sub-alt-color": "#1b2334",
+            "--text-color": "#bdd2e7",
+            "--error-color": "#d996ac",
+            "--error-extra-color": "#df4576",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "dark forest theme",
+        "name": "dark forest",
+        "properties": {
+            "--bg-color": "#011815",
+            "--main-color": "#00ff37",
+            "--caret-color": "#0d9c82",
+            "--sub-color": "#008864",
+            "--sub-alt-color": "#00211d",
+            "--text-color": "#cbe1df",
+            "--error-color": "#fba47c",
+            "--error-extra-color": "#fa7e45",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "coffee theme",
+        "name": "coffee",
+        "properties": {
+            "--bg-color": "#603F26",
+            "--main-color": "#f5ac40",
+            "--caret-color": "#cd851a",
+            "--sub-color": "#ffc587",
+            "--sub-alt-color": "#6C4E31",
+            "--text-color": "#fff4e2",
+            "--error-color": "#f86067",
+            "--error-extra-color": "#f81c2b",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "dusky radiance theme",
+        "name": "dusky radiance",
+        "properties": {
+            "--bg-color": "#2f0135",
+            "--main-color": "#ff8c00",
+            "--caret-color": "#b60965",
+            "--sub-color": "#ff8597",
+            "--sub-alt-color": "#630336",
+            "--text-color": "#dfdfdf",
+            "--error-color": "#ffa057",
+            "--error-extra-color": "#ff7b07",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "aqua surge theme",
+        "name": "aqua surge",
+        "properties": {
+            "--bg-color": "#4a2bbd",
+            "--main-color": "#25edff",
+            "--caret-color": "#a0f7ff",
+            "--sub-color": "#50c2ff",
+            "--sub-alt-color": "#3f5fd1",
+            "--text-color": "#f6f6f6",
+            "--error-color": "#27ff8c",
+            "--error-extra-color": "#8ef413",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "tropical breeze theme",
+        "name": "tropical breeze",
+        "properties": {
+            "--bg-color": "#006769",
+            "--main-color": "#ceff2c",
+            "--caret-color": "#83be50",
+            "--sub-color": "#96ee7d",
+            "--sub-alt-color": "#27a46c",
+            "--text-color": "#ffffff",
+            "--error-color": "#ffe23a",
+            "--error-extra-color": "#fda900",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "twilight gleam theme",
+        "name": "twilight gleam",
+        "properties": {
+            "--bg-color": "#17153B",
+            "--main-color": "#a958ff",
+            "--caret-color": "#6e22c5",
+            "--sub-color": "#685fcc",
+            "--sub-alt-color": "#2E236C",
+            "--text-color": "#d6d6d6",
+            "--error-color": "#d96fff",
+            "--error-extra-color": "#de0bff",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "ocean dawn theme",
+        "name": "ocean dawn",
+        "properties": {
+            "--bg-color": "#384B70",
+            "--main-color": "#53b9e8",
+            "--caret-color": "#54a4f0",
+            "--sub-color": "#FCFAEE",
+            "--sub-alt-color": "#507687",
+            "--text-color": "#ff854d",
+            "--error-color": "#ffe032",
+            "--error-extra-color": "#aeff3c",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "cyberspace theme",
+        "name": "cyberspace",
+        "properties": {
+            "--bg-color": "#181c18",
+            "--main-color": "#00ce7c",
+            "--caret-color": "#00ce7c",
+            "--sub-color": "#9578d3",
+            "--sub-alt-color": "#131613",
+            "--text-color": "#c2fbe1",
+            "--error-color": "#ff5f5f",
+            "--error-extra-color": "#f42d2d",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "dev theme",
+        "name": "dev",
+        "properties": {
+            "--bg-color": "#1b2028",
+            "--main-color": "#23a9d5",
+            "--caret-color": "#6b7da2",
+            "--sub-color": "#4b5975",
+            "--sub-alt-color": "#151a21",
+            "--text-color": "#ccccb5",
+            "--error-color": "#df5c6a",
+            "--error-extra-color": "#ea2b3e",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "dracula theme",
+        "name": "dracula",
+        "properties": {
+            "--bg-color": "#282a36",
+            "--main-color": "#bd93f9",
+            "--caret-color": "#bd93f9",
+            "--sub-color": "#6272a4",
+            "--sub-alt-color": "#20222c",
+            "--text-color": "#f8f8f2",
+            "--error-color": "#f56464",
+            "--error-extra-color": "#f43d3d",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "material theme",
+        "name": "material",
+        "properties": {
+            "--bg-color": "#263238",
+            "--main-color": "#80cbc4",
+            "--caret-color": "#80cbc4",
+            "--sub-color": "#4c6772",
+            "--sub-alt-color": "#2e3c43",
+            "--text-color": "#e6edf3",
+            "--error-color": "#f48d59",
+            "--error-extra-color": "#f57429",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "matrix theme",
+        "name": "matrix",
+        "properties": {
+            "--bg-color": "#000000",
+            "--main-color": "#15ff00",
+            "--caret-color": "#15ff00",
+            "--sub-color": "#006500",
+            "--sub-alt-color": "#032000",
+            "--text-color": "#d1ffcd",
+            "--error-color": "#f35d5d",
+            "--error-extra-color": "#f83131",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "metaverse theme",
+        "name": "metaverse",
+        "properties": {
+            "--bg-color": "#232323",
+            "--main-color": "#ef333f",
+            "--caret-color": "#d82934",
+            "--sub-color": "#5e5e5e",
+            "--sub-alt-color": "#1d1d1d",
+            "--text-color": "#e8e8e8",
+            "--error-color": "#f96f6f",
+            "--error-extra-color": "#f94040",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "onedark theme",
+        "name": "onedark",
+        "properties": {
+            "--bg-color": "#2f343f",
+            "--caret-color": "#61afef",
+            "--main-color": "#61afef",
+            "--sub-color": "#eceff4",
+            "--sub-alt-color": "#262b34",
+            "--text-color": "#98c379",
+            "--error-color": "#ff6d79",
+            "--error-extra-color": "#ff3a4e",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "rose pine theme",
+        "name": "rose pine",
+        "properties": {
+            "--bg-color": "#1f1d27",
+            "--main-color": "#75dff2",
+            "--caret-color": "#f6c177",
+            "--sub-color": "#c4a7e7",
+            "--sub-alt-color": "#282533",
+            "--text-color": "#ececec",
+            "--error-color": "#ff759c",
+            "--error-extra-color": "#ff4079",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "serika dark theme",
+        "name": "serika",
+        "properties": {
+            "--bg-color": "#323437",
+            "--main-color": "#e2b714",
+            "--caret-color": "#e2b714",
+            "--sub-color": "#646669",
+            "--sub-alt-color": "#2c2e31",
+            "--text-color": "#d1d0c5",
+            "--error-color": "#ee6472",
+            "--error-extra-color": "#fa3a4d",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "suisei theme",
+        "name": "suisei",
+        "properties": {
+            "--bg-color": "#3b4a62",
+            "--main-color": "#9ae7ff",
+            "--caret-color": "#bef0ff",
+            "--sub-color": "#ff9d47",
+            "--sub-alt-color": "#313e55",
+            "--text-color": "#dbdeeb",
+            "--error-color": "#ff6471",
+            "--error-extra-color": "#090203",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "superuser theme",
+        "name": "superuser",
+        "properties": {
+            "--bg-color": "#262a33",
+            "--main-color": "#43ffaf",
+            "--caret-color": "#43ffaf",
+            "--sub-color": "#526777",
+            "--sub-alt-color": "#1f232c",
+            "--text-color": "#e5f7ef",
+            "--error-color": "#ff6d6d",
+            "--error-extra-color": "#ff3636",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    },
+    {
+        "id": "wavez theme",
+        "name": "wavez",
+        "properties": {
+            "--bg-color": "#1c292f",
+            "--main-color": "#6bde3b",
+            "--caret-color": "#6bde3b",
+            "--sub-color": "#257484",
+            "--sub-alt-color": "#1b3238",
+            "--text-color": "#e9efe6",
+            "--error-color": "#ee6673",
+            "--error-extra-color": "#f93044",
+            "--colorAnim": "none",
+            "--bgColorAnim": "none",
+            "--borderColorAnim": "none"
+        }
+    }
+]

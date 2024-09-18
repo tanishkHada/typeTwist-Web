@@ -1,0 +1,346 @@
+/* ********* AURORA THEME ********* */
+
+@keyframes color-change-aurora {
+  0% {
+    color: #009fb4;
+  }
+
+  25% {
+    color: #00e975;
+  }
+
+  50% {
+    color: #00ffea;
+  }
+
+  75% {
+    color: #00e975;
+  }
+
+  100% {
+    color: #009fb4;
+  }
+}
+
+@keyframes color-change-aurora-border {
+  0% {
+    border-color: #009fb4;
+  }
+
+  25% {
+    border-color: #00e975;
+  }
+
+  50% {
+    border-color: #00ffea;
+  }
+
+  75% {
+    border-color: #00e975;
+  }
+
+  100% {
+    border-color: #009fb4;
+  }
+}
+
+@keyframes color-change-aurora-bg {
+  0% {
+    background-color: #009fb4;
+  }
+
+  25% {
+    background-color: #00e975;
+  }
+
+  50% {
+    background-color: #00ffea;
+  }
+
+  75% {
+    background-color: #00e975;
+  }
+
+  100% {
+    background-color: #009fb4;
+  }
+}
+
+
+
+/* ********* RGB THEME ************** */
+
+@keyframes color-change-rgb {
+  0% {
+    color: hsl(120, 39%, 49%);
+  }
+
+  20% {
+    color: hsl(192, 48%, 48%);
+  }
+
+  40% {
+    color: hsl(264, 90%, 58%);
+  }
+
+  60% {
+    color: hsl(357, 89%, 50%);
+  }
+
+  80% {
+    color: hsl(46, 100%, 51%);
+  }
+
+  100% {
+    color: hsl(120, 39%, 49%);
+  }
+}
+
+@keyframes color-change-rgb-border {
+  0% {
+    border-color: hsl(120, 39%, 49%);
+  }
+
+  20% {
+    border-color: hsl(192, 48%, 48%);
+  }
+
+  40% {
+    border-color: hsl(264, 90%, 58%);
+  }
+
+  60% {
+    border-color: hsl(357, 89%, 50%);
+  }
+
+  80% {
+    border-color: hsl(46, 100%, 51%);
+  }
+
+  100% {
+    border-color: hsl(120, 39%, 49%);
+  }
+}
+
+@keyframes color-change-rgb-bg {
+  0% {
+    background-color: hsl(120, 39%, 49%);
+  }
+
+  20% {
+    background-color: hsl(192, 48%, 48%);
+  }
+
+  40% {
+    background-color: hsl(264, 90%, 58%);
+  }
+
+  60% {
+    background-color: hsl(357, 89%, 50%);
+  }
+
+  80% {
+    background-color: hsl(46, 100%, 51%);
+  }
+
+  100% {
+    background-color: hsl(120, 39%, 49%);
+  }
+}
+
+
+/* ********** RAINBOW THEME ************** */
+
+@keyframes color-change-rainbow {
+  0% {
+    color: #60b6ce;
+  }
+  11.11% {
+    color: #7ce3e1;
+  }
+  22.22% {
+    color: #b2e259;
+  }
+  33.33% {
+    color: #f6ee75;
+  }
+  44.44% {
+    color: #f5b83d;
+  }
+  55.56% {
+    color: #f49a98;
+  }
+  66.67% {
+    color: #ed7abd;
+  }
+  77.78% {
+    color: #dea2fa;
+  }
+  88.89% {
+    color: #a966f5;
+  }
+  100% {
+    color: #60b6ce;
+  }
+}
+
+@keyframes color-change-rainbow-border {
+  0% {
+    border-color: #60b6ce;
+  }
+  11.11% {
+    border-color: #7ce3e1;
+  }
+  22.22% {
+    border-color: #b2e259;
+  }
+  33.33% {
+    border-color: #f6ee75;
+  }
+  44.44% {
+    border-color: #f5b83d;
+  }
+  55.56% {
+    border-color: #f49a98;
+  }
+  66.67% {
+    border-color: #ed7abd;
+  }
+  77.78% {
+    border-color: #dea2fa;
+  }
+  88.89% {
+    border-color: #a966f5;
+  }
+  100% {
+    border-color: #60b6ce;
+  }
+}
+
+@keyframes color-change-rainbow-bg {
+  0% {
+    background-color: #60b6ce;
+  }
+  11.11% {
+    background-color: #7ce3e1;
+  }
+  22.22% {
+    background-color: #b2e259;
+  }
+  33.33% {
+    background-color: #f6ee75;
+  }
+  44.44% {
+    background-color: #f5b83d;
+  }
+  55.56% {
+    background-color: #f49a98;
+  }
+  66.67% {
+    background-color: #ed7abd;
+  }
+  77.78% {
+    background-color: #dea2fa;
+  }
+  88.89% {
+    background-color: #a966f5;
+  }
+  100% {
+    background-color: #60b6ce;
+  }
+}
+
+
+/* ********** FIRE THEME *************** */
+@keyframes color-change-fire {
+  0% {
+    color: #b31313;
+  }
+  25% {
+    color: #ff9000;
+  }
+  50% {
+    color: #fdda16;
+  }
+  75% {
+    color: #ff9000;
+  }
+  100% {
+    color: #b31313;
+  }
+}
+
+@keyframes color-change-fire-border {
+  0% {
+    border-color: #b31313;
+  }
+  25% {
+    border-color: #ff9000;
+  }
+  50% {
+    border-color: #fdda16;
+  }
+  75% {
+    border-color: #ff9000;
+  }
+  100% {
+    border-color: #b31313;
+  }
+}
+
+@keyframes color-change-fire-bg {
+  0% {
+    background-color: #b31313;
+  }
+  25% {
+    background-color: #ff9000;
+  }
+  50% {
+    background-color: #fdda16;
+  }
+  75% {
+    background-color: #ff9000;
+  }
+  100% {
+    background-color: #b31313;
+  }
+}
+
+
+
+/* ***** TRANCE THEME ********* */
+@keyframes color-change-trance {
+  0% {
+    color: #e51376;
+  }
+  50% {
+    color: #0e77ee;
+  }
+  100% {
+    color: #e51376;
+  }
+}
+
+@keyframes color-change-trance-border {
+  0% {
+    border-color: #e51376;
+  }
+  50% {
+    border-color: #0e77ee;
+  }
+  100% {
+    border-color: #e51376;
+  }
+}
+
+@keyframes color-change-trance-bg {
+  0% {
+    background-color: #e51376;
+  }
+  50% {
+    background-color: #0e77ee;
+  }
+  100% {
+    background-color: #e51376;
+  }
+}

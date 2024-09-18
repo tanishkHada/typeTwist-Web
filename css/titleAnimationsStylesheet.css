@@ -1,0 +1,79 @@
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: none;
+}
+
+.cssanimation span { display: inline-block }
+
+/* letter peek anim */
+.lePeek span { animation-name: lePeek }
+@keyframes lePeek {
+    25% {  transform: rotateX(30deg) translateY(10px) rotate(-13deg); }
+    50% { transform: translateY(-22px) rotate(3deg) scale(1.1);  }
+}
+
+/* letter moving back from right anim */
+.leMovingBackFromRight span { animation-name: leMovingBackFromRight; transform-origin: bottom }
+@keyframes leMovingBackFromRight {
+    40% { transform: rotate(45deg) }
+    100% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0,.9,.7,1.45)
+    }
+}
+
+/* letter hang and drop left anim */
+.leHangAndDropLeft span { animation-name: leHangAndDropLeft }
+@keyframes leHangAndDropLeft {
+    from { transform-origin: left }
+    50% {
+        transform: rotate(100deg);
+        transform-origin: left
+    }
+    60% {
+        transform: rotate(90deg);
+        transform-origin: left
+    }
+    to {
+        transform: translateY(800px) rotate(70deg);
+        transform-origin: left
+    }
+}
+
+/* letter kick out front anim */
+.leKickOutFront span { animation-name: leKickOutBehind; transform-origin: top }
+@keyframes leKickOutBehind {
+    40% { transform: rotate(-45deg) }
+    100% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0,.9,.7,1.45)
+    }
+}
+
+/* letter bounce from top anim */
+.leBounceFromTop span { animation-name: leBounceFromTop }
+@keyframes leBounceFromTop {
+    0%, 25%, 55%, 85%, 100% {
+        animation-timing-function: ease-out;
+        transform: translate3d(0, 0, 0);
+    }
+    41%, 44% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -25px, 0) scale3d(1, 1.2, 1);
+    }
+    70% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -10px, 0);
+    }
+    90% { transform: translate3d(0, -3px, 0) }
+}
+
+/* letter dance top anim */
+.leDanceTop span { animation-name: leDanceTop; transform-origin: top }
+@keyframes leDanceTop {
+    16% { transform: skew(-14deg) }
+    33% { transform: skew(12deg) }
+    49% { transform: skew(-8deg) }
+    66% { transform: skew(6deg) }
+    83% { transform: skew(-4deg) }
+}

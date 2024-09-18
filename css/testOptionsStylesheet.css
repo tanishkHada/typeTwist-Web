@@ -1,0 +1,52 @@
+.test .test-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sub-alt-color);
+    color: var(--sub-color);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: background-color var(--colorTransition);
+}
+
+.test .spacer{
+    width: 6px;
+    height: 24px;
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    transition: background-color var(--colorTransition);
+}
+
+.test .test-options .option-category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 35px;
+}
+
+.test .test-options .option-category .option{
+    margin: 0px 15px;
+    font-size: 13px;
+    transition: color var(--colorTransition);
+}
+
+.test .test-options .option-category .option:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.test .test-options .option-category .option.selected{
+    color: var(--main-color);
+    animation: var(--colorAnim);
+}
+
+.test .test-options .option-category .option.selected:hover{
+    color: var(--text-color);
+}
+
+.test .test-options .option-category i{
+    font-size: 13px;
+}

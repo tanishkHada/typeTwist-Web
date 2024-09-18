@@ -1,0 +1,105 @@
+.keyboard-practice{
+    display: none;
+    flex-direction: column;
+    row-gap: 80px;
+    animation: fade-in 0.7s ease-in-out;
+}
+
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }    
+    100%{
+        opacity: 1;
+    }
+}
+
+.keyboard-practice .keymap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.keyboard-practice .keymap .row{
+    display: flex;   
+    flex-wrap: wrap;
+}
+
+.keyboard-practice .keymapKey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    color: var(--sub-color);
+    margin: 8px;
+    font-size: 25px;
+    border: 2px solid var(--sub-color);
+    border-radius: 8px;
+    background-color: var(--sub-alt-color);
+    transition: transform 0.1s ease-in-out, background-color 0.1s, color 0.1s;
+}
+
+.keyboard-practice .keymapKey.space{
+    width: 300px;    
+}
+
+.keyboard-practice .keymapKey.pressed{
+    transform: scale(0.7);
+    background-color: var(--main-color);
+}
+
+.keyboard-practice .keymapKey.selected{
+    animation: anim 1s ease-in-out infinite;
+}
+
+@keyframes anim {
+    0%, 100% { 
+        transform: rotate(6deg) translateX(-4px) skew(0deg);
+    }
+    16% { 
+        transform: rotate(-6deg) translateX(4px) skew(-6deg); 
+    }
+    33% { 
+        transform: rotate(6deg) translateX(-4px) skew(6deg); 
+    }
+    50% { 
+        transform: rotate(-6deg) translateX(4px) skew(-4deg); 
+    }
+    66% { 
+        transform: rotate(6deg) translateX(-4px) skew(4deg); 
+    }
+    83% { 
+        transform: rotate(-6deg) translateX(4px) skew(-2deg); 
+    }
+}
+
+.keyboard-practice .options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    color: var(--sub-color);
+    font-size: 18px;
+    transition: color var(--colorTransition);
+}
+
+.keyboard-practice .options span{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: color var(--colorTransition);
+    animation: var(--colorAnim);
+}
+
+.keyboard-practice .options #btnReset{
+    cursor: pointer;
+    transition: transform 0.3s, color var(--colorTransition);
+}
+
+.keyboard-practice .options #btnReset:hover{
+    color: var(--text-color);
+    transform: rotate(360deg);    
+}

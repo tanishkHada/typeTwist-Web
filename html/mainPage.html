@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Roboto mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Comfortaa -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    
+    <!-- Tomorrow -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Pixelify Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- Architects Daughter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <!-- Allerta Stencil -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+
+    <!-- Goldman -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Gluten -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Happy Monkey -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+
+    <!-- Slackey -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+
+    <!-- Finger Paint -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+
+    <!-- Protest Riot -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/customThemeAnimStylesheet.css">
+    <link rel="stylesheet" href="/css/mainPageStylesheet.css">
+    <link rel="stylesheet" href="/css/testOptionsStylesheet.css">
+    <link rel="stylesheet" href="/css/statsStylesheet.css">
+    <link rel="stylesheet" href="/css/topOptionsStylesheet.css">
+    <link rel="stylesheet" href="/css/titleAnimationsStylesheet.css">
+    <link rel="stylesheet" href="/css/bottomOptionsStylesheet.css">
+    <link rel="stylesheet" href="/css/keyboardPracticeStylesheet.css">
+    <link rel="stylesheet" href="/css/themesStylesheet.css">
+
+    <script src="https://kit.fontawesome.com/3c6de92360.js" crossorigin="anonymous"></script>
+
+    <script src="/javascript/words.js"></script>
+    <script src="/javascript/generateTestScript.js" defer></script>
+    <script src="/javascript/statsScript.js" defer></script>
+    <script src="/javascript/titleAnimationsScript.js" defer></script>
+    <script src="/javascript/mainPageScript.js" defer></script>
+    <script src="/javascript/optionsScript.js" defer></script>
+    <script src="/javascript/bottomOptionsScript.js" defer></script>
+    <script src="/javascript/keyboardPracticeScript.js" defer></script>
+    <script src="/javascript/themeSelectorScript.js" defer></script>
+    
+</head>
+
+<body>    
+    <div class="top-options">
+        <div class="caps-lock hide"><i class="fa-solid fa-lock"></i> Caps Lock</div>
+        <div class="options-row">
+            <div class="left-options">
+                <div class="title">
+                    <i class="fa-solid fa-keyboard"></i><span class="cssanimation sequence" id="mainTitle">typeTwist</span>
+                </div>
+            </div>
+            <div class="right-options">
+                <div class="option" id="btnFun1">Fun1</div>
+                <div class="option" id="btnFun2">Fun2</div>
+                <div class="option" id="btnFun3">Fun3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="middle-content">
+        <div class="test">
+            <div class="test-options">
+                <div class="option-category">
+                    <div class="option" id="btnNormal"><span><i class="fa-solid fa-hashtag"></i></span> normal</div>
+                    <div class="option" id="btnHard"><span><i class="fa-solid fa-exclamation"></i></span> hard</div>
+                </div>
+                <div class="spacer"></div>
+                <div class="option-category">
+                    <div class="option" id="btnPunctuation">
+                        <span><i class="fa-solid fa-at"></i></span> punctuation
+                    </div>
+                    <div class="option" id="btnWords"><span><i class="fa-solid fa-arrow-down-a-z"></i></span> words
+                    </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="option-category">
+                    <i class="fa-solid fa-clock fa-sm"></i>
+                    <div class="option" id="btn15">15</div>
+                    <div class="option" id="btn30">30</div>
+                    <div class="option" id="btn60">60</div>
+                    <div class="option" id="btn120">120</div>
+                </div>
+            </div>
+            <input type="text" class="input-field">
+            <div class="time-typingText-container">
+                <div class="timer-tag"><span>30</span></div>
+                <div class="words-container">
+                    <div class="caret caret-bg"></div>
+                    <p class="words"></p>
+                </div>
+            </div>
+
+            <div class="keymap">
+                <div class="row">
+                    <div class="keymapKey" data-key="qQ"><span>q</span></div>
+                    <div class="keymapKey" data-key="wW"><span>w</span></div>
+                    <div class="keymapKey" data-key="eE"><span>e</span></div>
+                    <div class="keymapKey" data-key="rR"><span>r</span></div>
+                    <div class="keymapKey" data-key="tT"><span>t</span></div>
+                    <div class="keymapKey" data-key="yY"><span>y</span></div>
+                    <div class="keymapKey" data-key="uU"><span>u</span></div>
+                    <div class="keymapKey" data-key="iI"><span>i</span></div>
+                    <div class="keymapKey" data-key="oO"><span>o</span></div>
+                    <div class="keymapKey" data-key="pP"><span>p</span></div>
+                    <div class="keymapKey" data-key="[{"><span>[</span></div>
+                    <div class="keymapKey" data-key="]}"><span>]</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey" data-key="aA"><span>a</span></div>
+                    <div class="keymapKey" data-key="sS"><span>s</span></div>
+                    <div class="keymapKey" data-key="dD"><span>d</span></div>
+                    <div class="keymapKey" data-key="fF"><span>f</span></div>
+                    <div class="keymapKey" data-key="gG"><span>g</span></div>
+                    <div class="keymapKey" data-key="hH"><span>h</span></div>
+                    <div class="keymapKey" data-key="jJ"><span>j</span></div>
+                    <div class="keymapKey" data-key="kK"><span>k</span></div>
+                    <div class="keymapKey" data-key="lL"><span>l</span></div>
+                    <div class="keymapKey" data-key=";:"><span>;</span></div>
+                    <div class="keymapKey" data-key="'"><span>'</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey" data-key="zZ"><span>z</span></div>
+                    <div class="keymapKey" data-key="xX"><span>x</span></div>
+                    <div class="keymapKey" data-key="cC"><span>c</span></div>
+                    <div class="keymapKey" data-key="vV"><span>v</span></div>
+                    <div class="keymapKey" data-key="bB"><span>b</span></div>
+                    <div class="keymapKey" data-key="nN"><span>n</span></div>
+                    <div class="keymapKey" data-key="mM"><span>m</span></div>
+                    <div class="keymapKey" data-key=",<"><span>,</span></div>
+                    <div class="keymapKey" data-key=".>"><span>.</span></div>
+                    <div class="keymapKey" data-key="/?"><span>/</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey space" data-key=" ">Space</div>
+                </div>
+            </div>
+
+            <div class="reload" id="btnReload">
+                <i class="fa-solid fa-rotate-right fa-lg"></i>
+            </div>
+
+            <div class="stats">
+                <div class="container">
+                    <div class="circular-progress" id="progressWpmRaw">
+                        <span class="progress-value">0</span>
+                    </div>
+                    <span class="stat-heading">WPM raw</span>
+                </div>
+
+                <div class="container">
+                    <div class="circular-progress" id="progressWpm">
+                        <span class="progress-value">0</span>
+                    </div>
+                    <span class="stat-heading">WPM</span>
+                </div>
+
+                <div class="container">
+                    <div class="circular-progress" id="progressAccuracy">
+                        <span class="progress-value">5%</span>
+                    </div>
+                    <span class="stat-heading">Acuuracy</span>
+                </div>
+
+                <div class="container">
+                    <div class="circular-progress" id="progressMistakes">
+                        <span class="progress-value">10</span>
+                    </div>
+                    <span class="stat-heading">Mistakes</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="keyboard-practice">
+            <div class="keymap">
+                <div class="row">
+                    <div class="keymapKey" data-key="qQ"><span>q</span></div>
+                    <div class="keymapKey" data-key="wW"><span>w</span></div>
+                    <div class="keymapKey" data-key="eE"><span>e</span></div>
+                    <div class="keymapKey" data-key="rR"><span>r</span></div>
+                    <div class="keymapKey" data-key="tT"><span>t</span></div>
+                    <div class="keymapKey" data-key="yY"><span>y</span></div>
+                    <div class="keymapKey" data-key="uU"><span>u</span></div>
+                    <div class="keymapKey" data-key="iI"><span>i</span></div>
+                    <div class="keymapKey" data-key="oO"><span>o</span></div>
+                    <div class="keymapKey" data-key="pP"><span>p</span></div>
+                    <div class="keymapKey" data-key="[{"><span>[</span></div>
+                    <div class="keymapKey" data-key="]}"><span>]</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey" data-key="aA"><span>a</span></div>
+                    <div class="keymapKey" data-key="sS"><span>s</span></div>
+                    <div class="keymapKey" data-key="dD"><span>d</span></div>
+                    <div class="keymapKey" data-key="fF"><span>f</span></div>
+                    <div class="keymapKey" data-key="gG"><span>g</span></div>
+                    <div class="keymapKey" data-key="hH"><span>h</span></div>
+                    <div class="keymapKey" data-key="jJ"><span>j</span></div>
+                    <div class="keymapKey" data-key="kK"><span>k</span></div>
+                    <div class="keymapKey" data-key="lL"><span>l</span></div>
+                    <div class="keymapKey" data-key=";:"><span>;</span></div>
+                    <div class="keymapKey" data-key="'"><span>'</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey" data-key="zZ"><span>z</span></div>
+                    <div class="keymapKey" data-key="xX"><span>x</span></div>
+                    <div class="keymapKey" data-key="cC"><span>c</span></div>
+                    <div class="keymapKey" data-key="vV"><span>v</span></div>
+                    <div class="keymapKey" data-key="bB"><span>b</span></div>
+                    <div class="keymapKey" data-key="nN"><span>n</span></div>
+                    <div class="keymapKey" data-key="mM"><span>m</span></div>
+                    <div class="keymapKey" data-key=",<"><span>,</span></div>
+                    <div class="keymapKey" data-key=".>"><span>.</span></div>
+                    <div class="keymapKey" data-key="/?"><span>/</span></div>
+                </div>
+                <div class="row">
+                    <div class="keymapKey space" data-key=" ">Space</div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="accuracy">Accuracy: <span id="accuracyCount">0%</span></div>
+                <div class="correct">Correct: <span id="correctCount">0</span></div>
+                <div class="incorrect">Incorrect: <span id="incorrectCount">0</span></div>
+                <div id="btnReset"><i class="fa-solid fa-rotate-right fa-lg"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-options">
+        <div class="options-row">
+            <div class="left-options">
+                <div class="option" id="btnFont">
+                    <ul class="list">
+                        <li class="list-option" style="--i:0.5;">
+                            <span class="list-option-text">Roboto Mono</span>
+                        </li>
+                        <li class="list-option" style="--i:1;">
+                            <span class="list-option-text">Comfortaa</span>
+                        </li>
+                        <li class="list-option" style="--i:1.5;">
+                            <span class="list-option-text">Tomorrow</span>
+                        </li>
+                        <li class="list-option" style="--i:2;">
+                            <span class="list-option-text">Pixelify Sans</span>
+                        </li>
+                        <li class="list-option" style="--i:2.5;">
+                            <span class="list-option-text">Architects Daughter</span>
+                        </li>
+                        <li class="list-option" style="--i:3;">
+                            <span class="list-option-text">Allerta Stencil</span>
+                        </li>
+                        <li class="list-option" style="--i:3.5;">
+                            <span class="list-option-text">Goldman</span>
+                        </li>
+                        <li class="list-option" style="--i:4;">
+                            <span class="list-option-text">Gluten</span>
+                        </li>
+                        <li class="list-option" style="--i:4.5;">
+                            <span class="list-option-text">Happy Monkey</span>
+                        </li>
+                        <li class="list-option" style="--i:5;">
+                            <span class="list-option-text">Slacky</span>
+                        </li>
+                        <li class="list-option" style="--i:5.5;">
+                            <span class="list-option-text">Finger Paint</span>
+                        </li>
+                        <li class="list-option" style="--i:6;">
+                            <span class="list-option-text">Protest Riot</span>
+                        </li>
+                    </ul>       
+                    <div class="content">
+                        <span><i class="fa-solid fa-font"></i></span>
+                        font styles <span><i class="fa-solid fa-angle-up arrow"></i></span>
+                    </div>            
+                </div>
+
+                <div class="option" id="btnCaretStyle">                 
+
+                    <ul class="list">
+                        <li class="list-option" style="--i:0.5;">
+                            <span class="list-option-text">Underscore</span>
+                        </li>
+                        <li class="list-option" style="--i:1;">
+                            <span class="list-option-text">Box</span>
+                        </li>
+                        <li class="list-option" style="--i:1.5;">
+                            <span class="list-option-text">Box-filled</span>
+                        </li>
+                        <li class="list-option" style="--i:2;">
+                            <span class="list-option-text">Bar</span>
+                        </li>
+                    </ul>         
+                    <div class="content">
+                        <span><i class="fa-solid fa-i-cursor"></i></span>
+                    caret styles <span><i class="fa-solid fa-angle-up arrow"></i></span>
+                    </div>           
+                </div>
+
+                <div class="option" id="btnCaretSmooth">
+                   
+                    <ul class="list">
+                        <li class="list-option" style="--i:0.5;">
+                            <span class="list-option-text">Normal</span>
+                        </li>
+                        <li class="list-option" style="--i:1;">
+                            <span class="list-option-text">Medium</span>
+                        </li>
+                        <li class="list-option" style="--i:1.5;">
+                            <span class="list-option-text">Slow</span>
+                        </li>
+                    </ul>      
+                    <div class="content">
+                        <i class="fa-solid fa-wind"></i>
+                    smooth caret <span><i class="fa-solid fa-angle-up arrow"></i></span>
+                    </div>             
+                </div>
+
+                <div class="option" id="btnKeyboardPractice">
+                    <span><i class="fa-regular fa-keyboard"></i></span>
+                    keyboard practice
+                </div>
+            </div>
+            <div class="right-options">
+                <div class="option" id="btnTheme">
+                    <span><i class="fa-solid fa-palette"></i></span>
+                    themes
+                </div>
+                <div class="option" id="btnGithub">
+                    <span><i class="fa-brands fa-github"></i></span>
+                    github
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="themeModal" class="modal">
+        <div class="modal-content">
+            <h2>Select a Theme</h2>
+            <div class="theme-list" id="themeList">
+                <!-- themes will be populated here -->
+
+                <!-- A sample theme item structure -->
+                <!-- <div class="theme-item">
+                    <h4>Theme name</h4>
+                    <div class="rect">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                </div>  -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
