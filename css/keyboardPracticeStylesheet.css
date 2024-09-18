@@ -39,6 +39,7 @@
     border-radius: 8px;
     background-color: var(--sub-alt-color);
     transition: transform 0.1s ease-in-out, background-color 0.1s, color 0.1s;
+    pointer-events: none;
 }
 
 .keyboard-practice .keymapKey.space{
@@ -86,12 +87,17 @@
     transition: color var(--colorTransition);
 }
 
+.accuracy, .correct, .incorrect{
+    pointer-events: none;
+}
+
 .keyboard-practice .options span{
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
     transition: color var(--colorTransition);
     animation: var(--colorAnim);
+    pointer-events: none;
 }
 
 .keyboard-practice .options #btnReset{
