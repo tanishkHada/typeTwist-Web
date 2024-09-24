@@ -1,0 +1,156 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(22, 22, 22);
+    font-family: monospace;
+}
+
+canvas{
+    border: 2px solid cyan;
+    border-radius: 20px;
+    order: 1;
+}
+
+.word{
+    position: absolute;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.selected{
+    color: rgb(40, 255, 83);    
+}
+
+.ring{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    border: 3px solid red;
+    border-radius: 50%;
+    animation: fade 1s ease infinite;
+    z-index: 10;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.ui{
+    order: 2;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(64, 64, 64);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(237, 237, 237);
+    margin: 20px;
+    pointer-events: none;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: rgb(98, 98, 98);
+    pointer-events: none;
+}
+
+.options{
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(102, 102, 102);
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(43, 43, 43);
+}
+
+.sub-option{
+    transition: color 0.3s ease;
+    padding: 10px;
+}
+
+.sub-option:hover{
+    color: rgb(194, 166, 255);
+}
+
+.sub-option-selected{
+    color: orange;
+}
+
+.execute{
+    cursor: pointer;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.execute .option{
+    border: 2px solid orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.execute .option:hover{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.execute .option.selected{
+    color: greenyellow;
+    border-color: greenyellow;
+}
+
+.stats{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(43, 43, 43);
+    pointer-events: none;
+}
+
+.stats .stats-option{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+}
+
+.stats .stats-option .text{
+    color: rgb(65, 255, 65);   
+    font-size: 13px;
+}

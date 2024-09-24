@@ -232,11 +232,8 @@ body {
 }
 
 
-/* Global Scrollbar Styles for Firefox */
 html,
 body {
     scrollbar-width: thin;
-    /* Make the scrollbar thinner */
     scrollbar-color: var(--main-color) var(--sub-alt-color);
-    /* Set the scrollbar thumb and track colors */
 }

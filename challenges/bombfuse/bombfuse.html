@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://kit.fontawesome.com/3c6de92360.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="bombfuseStylesheet.css">
+
+    <script src="/challenges/matter/matter.js" defer></script>
+    <script src="componentsScript.js" defer></script>
+    <script src="bombfuseScript.js" defer></script>
+    <script src="uiScript.js" defer></script>
+</head>
+<body>
+
+    <audio id="blastSound" src="/assets/pop sound.mp3" preload="auto"></audio>
+    <!-- matter js renderer automatically adds canvas into html body -->
+
+    <div class="ui">
+        <div class="title">Key Kaboom</div>
+
+        <div class="text"><i class="fa-solid fa-lightbulb fa-sm"></i> Type the correct word and press SPACE to ka-boom</div>
+
+        <div class="options">
+            <div class="easy sub-option">Staggered</div>
+            <div class="medium sub-option">Plinko</div>
+            <div class="hard sub-option">Avalanche</div>
+        </div>
+
+        <div class="execute">
+            <div class="start option">START</div>
+            <div class="reset option">RESET</div>
+        </div>
+
+        <div class="stats">
+            <div class="blasted stats-option">
+                <div class="text">Blasted</div>
+                <div class="blastedCount">0</div>
+            </div>
+
+            <div class="missed stats-option">
+                <div class="text">Missed</div>
+                <div class="missedCount">0</div>
+            </div>
+
+            <div class="streak stats-option">
+                <div class="text">Streak</div>
+                <div class="streakCount">0</div>
+            </div>
+
+            <div class="maxStreak stats-option">
+                <div class="text">Max Streak</div>
+                <div class="maxStreakCount">0</div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
