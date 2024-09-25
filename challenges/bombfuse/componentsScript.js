@@ -7,8 +7,7 @@ let blasts = 0, missed = 0, streak = 0;
 let maxStreak = 0;
 
 function getRandomWord() {
-    index = (index + 1) % words.length;
-    return words[index];
+    return getWord();
 }
 
 function getWordInSpans(word) {
