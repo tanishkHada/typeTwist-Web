@@ -1,6 +1,8 @@
 const caretStyle = ['caret-underscore', 'caret-border', 'caret-bg', 'caret-bar'];
 const caretStyleButtons = document.querySelectorAll('#btnCaretStyle .list-option');
 
+const btnGithub = document.getElementById('btnGithub');
+
 const smoothValues = [0.1, 0.2, 0.3];
 const caretSmoothButtons = document.querySelectorAll('#btnCaretSmooth .list-option');
 
@@ -140,6 +142,10 @@ fontButtons.forEach((button, index) => {
         changeFont(index);
     });
 });
+
+btnGithub.addEventListener('click', () => {
+    window.open('https://github.com/tanishkHada/typeTwist-Web', '_blank');
+})
 
 btnKeyBoardPractice.addEventListener('click', handleKeyboardPractice);
 

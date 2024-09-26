@@ -1,5 +1,7 @@
 const capsLock = document.querySelector('.caps-lock');
 
+const btnFun1 = document.getElementById('btnFun1');
+
 const title = document.getElementById('mainTitle');
 const anims = ['lePeek', 'leKickOutFront', 'leHangAndDropLeft', 'leDanceTop', 'leBounceFromTop', 'leMovingBackFromRight'];
 
@@ -55,6 +57,10 @@ window.onload = function () {
     toggleAnimation(false);
 };
 
+//fun buttons
+btnFun1.addEventListener('click', () => {
+    window.open('/challenges/bombfuse/bombfuse.html', '_blank');
+})
 
 // caps lock handling
 document.addEventListener('DOMContentLoaded', () => {

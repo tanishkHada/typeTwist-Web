@@ -28,7 +28,7 @@ World.add(engine.world, [ground, leftWall, rightWall, topWall]);
 //airfriction
 let airFrictionValues = [0, 0, 0];
 let restitutionValues = [0.5, 0.8, 0.7];
-let rateValues = [1500, 1500, 1000];
+let rateValues = [1800, 1700, 1500];
 
 let airFriction, restitution, rate;
 
