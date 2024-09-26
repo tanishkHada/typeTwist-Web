@@ -1,4 +1,5 @@
-const words = ['boom', 'moon', 'grenede', 'elite', 'aboard', 'fixed', 'summer', 'winter', 'country', 'utility', 'vroom', 'hostile'];
+const keySoundCorrect = document.getElementById('keySoundCorrect');
+const keySoundIncorrect = document.getElementById('keySoundIncorrect');
 
 let index = -1;
 let charIndex = 0;
@@ -31,6 +32,13 @@ function processWordBomb(typedChar) {
         if (charIndex == word.length) {
             bombUnderProcess.ringElement.classList.add('ring');
         }
+
+        keySoundCorrect.currentTime = 0;
+        keySoundCorrect.play();
+    }    
+    else if(charIndex < word.length){
+        keySoundIncorrect.currentTime = 0;
+        keySoundIncorrect.play();
     }
     if (charIndex >= word.length && typedChar == ' ') {
 

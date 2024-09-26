@@ -1,4 +1,5 @@
-const blastSound = document.getElementById('blastSound');
+const blastSoundGround = document.getElementById('blastSoundGround');
+const blastSoundAir = document.getElementById('blastSoundAir');
 
 const { Engine, Render, Runner, World, Bodies, Body, Events, Composite, Constraint, Composites } = Matter;
 
@@ -140,9 +141,7 @@ function createBombWithText(word) {
 
 
 // Function to remove bomb from world and DOM
-function removeBomb(bombObj, wordElement) {
-    // blastSound.currentTime = 0;
-    // blastSound.play();
+function removeBomb(bombObj, wordElement) {   
 
     if (bombUnderProcess != null && bombObj.id === bombUnderProcess.id) {
         bombUnderProcess = null;
@@ -161,6 +160,9 @@ function removeBomb(bombObj, wordElement) {
 
 // Function to explode the bomb with the unique ID
 function explodeOnGround(bombBody) {
+    blastSoundGround.currentTime = 0;
+    blastSoundGround.play();
+
     const particles = [];
     const particleCount = 20;
 
@@ -198,6 +200,9 @@ function explodeOnGround(bombBody) {
 }
 
 function explodeMidAir(bombBody) {
+    blastSoundAir.currentTime = 0;
+    blastSoundAir.play();
+
     const particles = [];
     const particleCount = 20;
 
