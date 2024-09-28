@@ -11,7 +11,7 @@ A website that provides typing tests, practice keyboard and typing challenges.
 
 ## First glance
 
-| <img src="Screenshots/1base.png" width="1000" height="550"> | 
+| <img src="Screenshots/1base.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    typeTwist        |   
 
