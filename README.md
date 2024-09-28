@@ -50,58 +50,58 @@ A website that provides typing tests, practice keyboard and typing challenges.
 |    aurora        |  rgb        | rainbow        | 
 
 
-| <img src="Screenshots/10theme.png" width="400" height="200"> | <img src="Screenshots/11theme.png" width="400" height="200"> | <img src="Screenshots/12theme.png" width="400" height="200"> | 
+| <img src="Screenshots/10theme.png" width="400" height="150"> | <img src="Screenshots/11theme.png" width="400" height="150"> | <img src="Screenshots/12theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    fire        |  trance        | midnight blush        | 
 
 
-| <img src="Screenshots/13theme.png" width="400" height="200"> | <img src="Screenshots/14theme.png" width="400" height="200"> | <img src="Screenshots/15theme.png" width="400" height="200"> | 
+| <img src="Screenshots/13theme.png" width="400" height="150"> | <img src="Screenshots/14theme.png" width="400" height="150"> | <img src="Screenshots/15theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    arch        |  blueberry        | dark forest        | 
 
 
-| <img src="Screenshots/16theme.png" width="400" height="200"> | <img src="Screenshots/17theme.png" width="400" height="200"> | <img src="Screenshots/18theme.png" width="400" height="200"> | 
+| <img src="Screenshots/16theme.png" width="400" height="150"> | <img src="Screenshots/17theme.png" width="400" height="150"> | <img src="Screenshots/18theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    coffee        |  dusky radiance        | aqua surge        | 
 
 
-| <img src="Screenshots/19theme.png" width="400" height="200"> | <img src="Screenshots/20theme.png" width="400" height="200"> | <img src="Screenshots/21theme.png" width="400" height="200"> | 
+| <img src="Screenshots/19theme.png" width="400" height="150"> | <img src="Screenshots/20theme.png" width="400" height="150"> | <img src="Screenshots/21theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    tropical breeze        |  twilight gleam        | ocean dawn        | 
 
 
-| <img src="Screenshots/22theme.png" width="400" height="200"> | <img src="Screenshots/23theme.png" width="400" height="200"> | <img src="Screenshots/24theme.png" width="400" height="200"> | 
+| <img src="Screenshots/22theme.png" width="400" height="150"> | <img src="Screenshots/23theme.png" width="400" height="150"> | <img src="Screenshots/24theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    cyberspace        |  dev        | dracula        | 
 
 
-| <img src="Screenshots/25theme.png" width="400" height="200"> | <img src="Screenshots/26theme.png" width="400" height="200"> | <img src="Screenshots/27theme.png" width="400" height="200"> | 
+| <img src="Screenshots/25theme.png" width="400" height="150"> | <img src="Screenshots/26theme.png" width="400" height="150"> | <img src="Screenshots/27theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    material        |  matrix        | metaverse        | 
 
 
-| <img src="Screenshots/28theme.png" width="400" height="200"> | <img src="Screenshots/29theme.png" width="400" height="200"> | <img src="Screenshots/30theme.png" width="400" height="200"> | 
+| <img src="Screenshots/28theme.png" width="400" height="150"> | <img src="Screenshots/29theme.png" width="400" height="150"> | <img src="Screenshots/30theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    onedark        |  rosepine        | serika        | 
 
 
-| <img src="Screenshots/31theme.png" width="400" height="200"> | <img src="Screenshots/32theme.png" width="400" height="200"> | <img src="Screenshots/33theme.png" width="400" height="200"> | 
+| <img src="Screenshots/31theme.png" width="400" height="150"> | <img src="Screenshots/32theme.png" width="400" height="150"> | <img src="Screenshots/33theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    suisei        |  superuser        | wavez        | 
 
 
 ## Key Kabooom (typing challenge)
 
-| <img src="Screenshots/34staggered.png" width="1000" height="550"> | 
+| <img src="Screenshots/34staggered.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    staggered        | 
 
-| <img src="Screenshots/35plinko.png" width="1000" height="550"> | 
+| <img src="Screenshots/35plinko.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    plinko        | 
 
 
-| <img src="Screenshots/36avalanche.png" width="1000" height="550"> | 
+| <img src="Screenshots/36avalanche.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    avalanche        | 
 
