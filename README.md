@@ -23,21 +23,21 @@ A website that provides typing tests, practice keyboard and typing challenges.
 - Punctuation and normal words
 - Test time options
 
-| <img src="Screenshots/37test.png" width="1000" height="550"> | 
+| <img src="Screenshots/37test.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    test        |   
 
 
 ## Some of the Fonts
   
-| <img src="Screenshots/3font1.png" width="600" height="300"> | <img src="Screenshots/4font2.png" width="600" height="300"> |
+| <img src="Screenshots/3font1.png" width="600" height="200"> | <img src="Screenshots/4font2.png" width="600" height="200"> |
 |      :--------:       |  :--------:       |  
 |    fonts      |  fonts      |  
 
 
 ## Keyboard Practice
 
-| <img src="Screenshots/6keyboard.png" width="1000" height="550"> | 
+| <img src="Screenshots/6keyboard.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    keyboard practice        |   
 
