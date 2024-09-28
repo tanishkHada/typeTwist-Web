@@ -6,17 +6,17 @@ A website that provides typing tests, practice keyboard and typing challenges.
 ## First glance
 
 
-| <img src="Screenshots/1base.png" width="1000" height="500"> | 
+| <img src="Screenshots/1base.png" width="1000" height="550"> | 
 |      :--------:       | 
 |    typeTwist        |   
 
 
 
-## Features
+## Typing Test 
 
-- App lock
-- Individual Note lock
-- Light and Dark themes
+- Normal and Hard difficulty levels for words
+- Punctuation and normal words
+- Test time options
 
 
 
