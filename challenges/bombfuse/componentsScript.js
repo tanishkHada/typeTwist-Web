@@ -80,7 +80,7 @@ function getBars() {
     for (let row = 0; row < rows; row++) {
         const numBars = 6; // Random number of bars (2 to 5)
         for (let col = 0; col < numBars; col++) {
-            const x = 80 + col * (800 / numBars) * 1.2 + (row % 2) * 50; // Staggered positions
+            const x = 75 + col * (800 / numBars) * 1.2 + (row % 2) * 50; // Staggered positions
             const y = 100 + row * spacing;
 
             // Alternate the angle: tilt right for even index and left for odd index
