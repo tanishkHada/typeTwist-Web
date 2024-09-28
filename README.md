@@ -30,7 +30,7 @@ A website that provides typing tests, practice keyboard and typing challenges.
 
 ## Some of the Fonts
   
-| <img src="Screenshots/3font1.png" width="600" height="200"> | <img src="Screenshots/4font2.png" width="600" height="200"> |
+| <img src="Screenshots/3font1.png" width="600" height="250"> | <img src="Screenshots/4font2.png" width="600" height="250"> |
 |      :--------:       |  :--------:       |  
 |    fonts      |  fonts      |  
 
@@ -45,7 +45,7 @@ A website that provides typing tests, practice keyboard and typing challenges.
 
 ## Themes
 
-| <img src="Screenshots/7theme.png" width="400" height="200"> | <img src="Screenshots/8theme.png" width="400" height="200"> | <img src="Screenshots/9theme.png" width="400" height="200"> | 
+| <img src="Screenshots/7theme.png" width="400" height="150"> | <img src="Screenshots/8theme.png" width="400" height="150"> | <img src="Screenshots/9theme.png" width="400" height="150"> | 
 |      :--------:       | :--------:       | :--------:       | 
 |    aurora        |  rgb        | rainbow        | 
 
