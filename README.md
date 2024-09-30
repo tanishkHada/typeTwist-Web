@@ -90,7 +90,7 @@ A website that provides typing tests, practice keyboard and typing challenges.
 |    suisei        |  superuser        | wavez        | 
 
 
-## Key Kabooom (typing challenge)
+## Key Kaboom (typing challenge)
 
 | <img src="Screenshots/34staggered.png" width="1000" height="450"> | 
 |      :--------:       | 
