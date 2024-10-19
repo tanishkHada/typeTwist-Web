@@ -3,10 +3,15 @@
 
 A website that provides typing tests, practice keyboard and typing challenges.
 
+## Tech stack
+- Html
+- Css
+- Javascript
+- Matter js
+
 ## First glance
 
-
-| <img src="Screenshots/1base.png" width="1000" height="550"> | 
+| <img src="Screenshots/1base.png" width="1000" height="450"> | 
 |      :--------:       | 
 |    typeTwist        |   
 
@@ -18,36 +23,87 @@ A website that provides typing tests, practice keyboard and typing challenges.
 - Punctuation and normal words
 - Test time options
 
+| <img src="Screenshots/37test.png" width="1000" height="450"> | 
+|      :--------:       | 
+|    test        |   
 
 
-## App lock look
-
-| <img src="https://github.com/Tanishk2002/NotesPro-Android/raw/main/Screenshots/ss3.jpeg" width="300"> | <img src="https://github.com/Tanishk2002/NotesPro-Android/raw/main/Screenshots/ss4.jpeg" width="300"> |         
-|    :--------:       | :-------:  |
-|    Light theme      | Dark theme |
-
-
+## Some of the Fonts
+  
+| <img src="Screenshots/3font1.png" width="600" height="250"> | <img src="Screenshots/4font2.png" width="600" height="250"> |
+|      :--------:       |  :--------:       |  
+|    fonts      |  fonts      |  
 
 
+## Keyboard Practice
+
+| <img src="Screenshots/6keyboard.png" width="1000" height="450"> | 
+|      :--------:       | 
+|    keyboard practice        |   
 
 
 
+## Themes
 
-## Tech stack
+| <img src="Screenshots/7theme.png" width="400" height="150"> | <img src="Screenshots/8theme.png" width="400" height="150"> | <img src="Screenshots/9theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    aurora        |  rgb        | rainbow        | 
 
-- Android Studio
-- Kotlin
-- Room Database
-- MVVM Architecture Pattern
-### Note:
 
-The **Utilities** package contains kotlin file **SendMail**. This is used to send mail to the user for verification. It contains two variables :
+| <img src="Screenshots/10theme.png" width="400" height="150"> | <img src="Screenshots/11theme.png" width="400" height="150"> | <img src="Screenshots/12theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    fire        |  trance        | midnight blush        | 
 
-- **stringSenderEmail** : Should contain the email id through which the emails should be sent for verification.
-- **stringPasswordSenderEmail** : Should contain the password for the sender's email. This should not be your sender's email password, instead, it should be the "App password" generated for your sender's email using two factor authentication option of the email.
 
-Specify these variables as per your choice before using the project to avoid any errors.
+| <img src="Screenshots/13theme.png" width="400" height="150"> | <img src="Screenshots/14theme.png" width="400" height="150"> | <img src="Screenshots/15theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    arch        |  blueberry        | dark forest        | 
 
+
+| <img src="Screenshots/16theme.png" width="400" height="150"> | <img src="Screenshots/17theme.png" width="400" height="150"> | <img src="Screenshots/18theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    coffee        |  dusky radiance        | aqua surge        | 
+
+
+| <img src="Screenshots/19theme.png" width="400" height="150"> | <img src="Screenshots/20theme.png" width="400" height="150"> | <img src="Screenshots/21theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    tropical breeze        |  twilight gleam        | ocean dawn        | 
+
+
+| <img src="Screenshots/22theme.png" width="400" height="150"> | <img src="Screenshots/23theme.png" width="400" height="150"> | <img src="Screenshots/24theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    cyberspace        |  dev        | dracula        | 
+
+
+| <img src="Screenshots/25theme.png" width="400" height="150"> | <img src="Screenshots/26theme.png" width="400" height="150"> | <img src="Screenshots/27theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    material        |  matrix        | metaverse        | 
+
+
+| <img src="Screenshots/28theme.png" width="400" height="150"> | <img src="Screenshots/29theme.png" width="400" height="150"> | <img src="Screenshots/30theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    onedark        |  rosepine        | serika        | 
+
+
+| <img src="Screenshots/31theme.png" width="400" height="150"> | <img src="Screenshots/32theme.png" width="400" height="150"> | <img src="Screenshots/33theme.png" width="400" height="150"> | 
+|      :--------:       | :--------:       | :--------:       | 
+|    suisei        |  superuser        | wavez        | 
+
+
+## Key Kaboom (typing challenge)
+
+| <img src="Screenshots/34staggered.png" width="1000" height="450"> | 
+|      :--------:       | 
+|    staggered        | 
+
+| <img src="Screenshots/35plinko.png" width="1000" height="450"> | 
+|      :--------:       | 
+|    plinko        | 
+
+
+| <img src="Screenshots/36avalanche.png" width="1000" height="450"> | 
+|      :--------:       | 
+|    avalanche        | 
 
 
 
