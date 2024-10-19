@@ -23,7 +23,7 @@ tick_font.style.marginLeft = 'auto';
 
 let defaultCaretInd = parseInt(localStorage.getItem('currentCaretStyle')) || 3;
 let defaultCaretSmoothInd = parseInt(localStorage.getItem('currentCaretSmoothness')) || 0;
-let defaultFontInd = parseInt(localStorage.getItem('currentFont')) || 0;
+let defaultFontInd = parseInt(localStorage.getItem('currentFont')) || 8;
 
 const btnKeyBoardPractice = document.getElementById('btnKeyboardPractice');
 const testContent = document.querySelector('.test');
